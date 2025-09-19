@@ -1,7 +1,3 @@
-Absolutely! Here’s a **full, ready-to-copy README.md** for your package `@bytealam/use-local-storage` covering **all scenarios**: basic usage, TTL, sync, serializer/deserializer, namespace, fallback, and examples.
-
----
-
 ````markdown
 # @bytealam/use-local-storage
 
