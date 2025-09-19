@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - "v*"   # Runs only when you push a tag like v1.0.0, v1.0.1, etc.
+    branches:
+      - v*     # also trigger on branch names starting with v
 
 jobs:
   publish:
