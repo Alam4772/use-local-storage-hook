@@ -1,0 +1,34 @@
+{
+  "name": "use-local-storage-hook",
+  "version": "1.0.0",
+  "description": "A React hook for managing state synchronized with localStorage, with advanced features like TTL, namespacing, and cross-tab sync.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && rollup -c",
+    "prepare": "npm run build"
+  },
+  "keywords": ["react", "hook", "localstorage", "useLocalStorage", "state", "persistence"],
+  "author": "Alam Inamdar",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.21.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.6.3"
+  }
+}
